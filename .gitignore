@@ -1,0 +1,4 @@
+﻿*.pyc
+logs
+wifi_config.py
+l360.token

@@ -1,0 +1,36 @@
+
+Usefull Link
+============
+To download latest FW
+https://micropython.org/download/ESP32_GENERIC/
+Other
+
+https://docs.espressif.com/projects/esptool/en/latest/esp32/esptool/index.html
+https://docs.espressif.com/projects/esptool/en/latest/esp32/
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+Tool: esptool
+Description: Used to flash micro-python on the ESP32
+EXAMPLE:
+cd
+esptool -h
+esptool erase-flash
+esptool --baud 460800 write-flash 0x1000 ESP32_GENERIC-20260824-v1.29.0.bin
+esptool run
+------------------------------------------------------------------------------------------------------------------------
+
+
+Tool: mpremote
+Description:  Use to upload python code and interact with the esp32
+
+EXAMPLE:
+cd C:\SmartHome\ESP32
+mpremote  help
+mpremote  : run python shell
+mpremore cp to copy file
+mpremore reset to reboot
+mpremote repl  then ctrl-c and you get to python prompt
+
+
